@@ -1,0 +1,71 @@
+[General]
+Title=New simulator
+Description=Describe here your simulator
+Date=01/16/13 14:54:32
+Name=simulator1
+Server=
+Server Location=\\
+InstructorName=
+InstructorPassword=
+ThermodynamicFileName=simulator1.thd
+Connected=0
+Type=0
+Access Mode=0
+ResetDeepRecord=0
+[Environment]
+Graphic library=c:\program files (x86)\ ; d:\lca\projet\industrialisation\1.9\indiss test simulator\mmi\
+UndoRedo=0
+Indiss State=3
+Top=95
+Left=1880
+Bottom=966
+Right=3228
+Maximise Childs=1
+Auto Scale=0
+[Calculation Mode]
+SteadyStateMaxIteration=100.000000
+SteadyStateMBTolerance=0.000100
+SteadyStateHBTolerance=0.001000
+[Passwords]
+0=
+1=
+2=
+[MultiThread]
+Enable MultiThreads=0
+Max Deviation=20
+Enable Network Optimization=0
+[Units]
+Units=
+[CAPE-OPEN]
+CapeOpenPropertyPackage=
+CapeOpenCompliant=
+RSIThermoSystem=
+[Custom Colors]
+Color 1=f0f0f
+Color 2=1f1f1f
+Color 3=2f2f2f
+Color 4=3f3f3f
+Color 5=4f4f4f
+Color 6=5f5f5f
+Color 7=6f6f6f
+Color 8=7f7f7f
+Color 9=8f8f8f
+Color 10=9f9f9f
+Color 11=afafaf
+Color 12=bfbfbf
+Color 13=cfcfcf
+Color 14=dfdfdf
+Color 15=efefef
+Color 16=ffffff
+[Solver Config]
+SolverType=3
+SparseJac=1
+AnalyticDerivatives=1
+[Tree]
+1=Diagrams;Simulator : New simulator;WSMfolder
+2=simulator1(*);Diagrams;.wsm
+3=Mimics;Simulator : New simulator;SYNfolder
+4=Users;Simulator : New simulator;USRfolder
+[Models DLL]
+C:\Program Files (x86)\RSI\INDISS\1.5.3.22 release\Dll\HPImodels.dll=
+C:\Program Files (x86)\RSI\INDISS\1.5.3.22 release\Dll\Property.dll=
